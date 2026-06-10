@@ -1,0 +1,118 @@
+/* ── Footer ── */
+.footer {
+  background: #111111;
+  color: #FFFFFFA6;
+}
+.footer_top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding: 70px clamp(24px, 6vw, 96px) 60px;
+  border-bottom: 1px solid #FFFFFF0F;
+}
+.footer_brand {
+  flex: 1.5 1 200px;
+}
+.footer_links,
+.footer_contact {
+  flex: 1 1 140px;
+}
+.footer_social {
+  flex: 1 1 140px;
+}
+@media (max-width: 960px) {
+  .footer_top > * {
+    flex-basis: calc(50% - 24px);
+  }
+}
+@media (max-width: 560px) {
+  .footer_top > * {
+    flex-basis: 100%;
+  }
+}
+.footer_brand p {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-top: 16px;
+  max-width: 240px;
+}
+.footer_logo {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  margin-bottom: 4px;
+  width: 80px;
+  height: 80px;
+}
+.footer h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer_links,
+.footer_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_links a {
+  font-size: 0.88rem;
+  color: #FFFFFF8C;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+.footer_links a:hover {
+  color: #E8A000;
+}
+.footer_contact p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+}
+.footer_contact p i {
+  color: #E8A000;
+  font-size: 1rem;
+}
+.footer_social-icons {
+  display: flex;
+  gap: 10px;
+}
+.footer_social-icon {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF0F;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #FFFFFF99;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+.footer_social-icon:hover {
+  background: #E8A000;
+  color: #111111;
+  transform: translateY(-2px);
+}
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 22px clamp(24px, 6vw, 96px);
+  font-size: 0.78rem;
+  color: #FFFFFF59;
+}
+@media (max-width: 600px) {
+  .footer_bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

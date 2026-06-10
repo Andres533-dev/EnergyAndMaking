@@ -1,0 +1,20 @@
+// categories.js
+export const CATEGORIES = [
+  { id: "equipo-proteccion-personal", label: "Equipo de protección personal", icon: "🦺" },
+  { id: "herramienta-mano",           label: "Herramienta de mano",          icon: "🔧" },
+  { id: "discos-gratas",              label: "Discos y gratas",              icon: "⚙️" },
+  { id: "tuberia",                    label: "Tuberia",                      icon: "🔘" },
+  { id: "herramientas-electricas",    label: "Herramientas eléctricas",      icon: "🔌" },
+  { id: "herramienta-medicion",       label: "Herramienta de medición",      icon: "📏" },
+  { id: "herramienta-amarre",         label: "Herramienta de amarre",        icon: "⛓️" },
+  { id: "herramienta-adhesivo",       label: "Herramienta de adhesivo",      icon: "🧴" },
+  { id: "accesorios-limpieza",        label: "Accesorios de limpieza",       icon: "🧹" },
+  { id: "canaletas",                  label: "Canaletas",                    icon: "〰️" },
+  { id: "accesorio-construccion",     label: "Accesorio de construcción",    icon: "🧱" },
+  { id: "accesorios-electricos",      label: "Accesorios eléctricos",        icon: "⚡" },
+  { id: "gasodomesticos-accesorios",  label: "Gasodomesticos y accesorios",  icon: "🍳" },
+  { id: "tornilleria-accesorios",     label: "Tornillería y accesorios",     icon: "🔩" },
+  { id: "cerrajeria-accesorios",      label: "Cerrajeria y accesorios",      icon: "🔑" },
+  { id: "plomeria-accesorios",        label: "Plomeria y accesorios",        icon: "🚰" },
+  { id: "basicos-ferreteria",         label: "Basicos de ferreteria",        icon: "🏠" },
+];

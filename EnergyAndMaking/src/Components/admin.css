@@ -1,0 +1,23 @@
+/* ══════════════════════ PANEL ADMIN ══════════════════════ */
+.admin-banner {
+  background: linear-gradient(90deg, #1a1400, var(--dark2));
+  border-bottom: 1px solid var(--yellow);
+  padding: 10px clamp(16px, 4vw, 48px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.82rem;
+}
+
+.admin-banner_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.admin-banner_left i {
+  font-size: 1rem;
+}

@@ -1,0 +1,94 @@
+/* ════════════════════════════════════════════
+   App.css — Estilos globales
+   Reset, tipografía base, tokens compartidos
+   ════════════════════════════════════════════ */
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ── Tokens de sección (usados en múltiples componentes) ── */
+.section-label,
+.section-label-light {
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #E8A000;
+  margin-bottom: 14px;
+}
+
+.section-label-light {
+  color: #F5C200;
+}
+
+.section-title,
+.section-title-light {
+  font-family: "DM Serif Display", serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.1;
+  color: #111111;
+}
+
+.section-title-light {
+  color: #ffffff;
+}
+
+/* ── Botones (usados en múltiples secciones) ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+  background: #E8A000;
+  color: #111111;
+}
+
+.btn-primary:hover {
+  background: #F5C200;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px #E8A000;
+}
+
+.btn-full {
+  width: 100%;
+  justify-content: center;
+}
